@@ -1,8 +1,7 @@
-function sleep() {
-  console.log("My name is Jasim");
-
-  console.log("Jasim is sleeping from 10 PM");
+function sleep(name, time) {
+  console.log(name + " is sleeping from " + time);
 }
 
-sleep();
-console.log("whats happend baby");
+sleep("Jasim", "10 PM");
+sleep("Karim", "11 PM");
+sleep("Rahim", "8 PM");
