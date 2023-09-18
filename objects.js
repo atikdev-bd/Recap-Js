@@ -6,11 +6,15 @@ let car = {
 
   start: function () {
     console.log("car is started");
-
+    this.drive();
   },
 
   drive: function () {
-    console.log("car was driving");
+    console.log("car has driving");
+  },
+
+  stop: function () {
+    console.log("car was stoped");
   },
 };
 
@@ -21,5 +25,10 @@ console.log(car.wight);
 console.log(car["name"]);
 console.log(car["wight"]);
 
-let x = car.start();
+
+car.start();
+
+car.stop();
+
+
 
